@@ -1,0 +1,38 @@
+[
+  {
+    "image": "../memory-card_game/assets/chili.png",
+    "name": "chili"
+  },
+  {
+    "image": "../memory-card_game/assets/grapes.png",
+    "name": "grapes"
+  },
+  {
+    "image": "../memory-card_game/assets/lemon.png",
+    "name": "lemon"
+  },
+  {
+    "image": "../memory-card_game/assets/orange.png",
+    "name": "orange"
+  },
+  {
+    "image": "../memory-card_game/assets/pineapple.png",
+    "name": "pineapple"
+  },
+  {
+    "image": "../memory-card_game/assets/strawberry.png",
+    "name": "strawberry"
+  },
+  {
+    "image": "../memory-card_game/assets/tomato.png",
+    "name": "tomato"
+  },
+  {
+    "image": "../memory-card_game/assets/watermelon.png",
+    "name": "watermelon"
+  },
+  {
+    "image": "../memory-card_game/assets/cherries.png",
+    "name": "cherries"
+  }
+]

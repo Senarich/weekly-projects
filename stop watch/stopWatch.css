@@ -1,0 +1,64 @@
+body {
+  background-color: azure;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#display {
+  font-size: 7rem;
+  font-weight: 700;
+  text-shadow: 2px 2px rgb(224, 20, 54);
+  color: #622182;
+  min-width: 600px;
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+  border: 5px double blue;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline double;
+  text-transform: uppercase;
+  color: #622182;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: #622182;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+  background-color: #a1587a;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+@media (max-width: 800px) {
+  #display {
+    font-size: 4rem;
+    min-width: 350px;
+  }
+h1{
+    font-size: 1.5rem;
+}
+  button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+}

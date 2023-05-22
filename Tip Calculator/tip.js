@@ -10,9 +10,9 @@ function calculateTotal() {
 
   // checking for the correct input value
   if (billValue === "" || billValue <= 0) {
-    alert("please enter a valid bill value");
+    alert("Please enter a valid bill value");
   } else if (tipValue === "" || tipValue <= 0) {
-    alert("please enter a valid tip percentage");
+    alert("Please enter a valid tip percentage");
   } else {
     // performing the tip calculations.
     const totalValue = billValue * (1 + tipValue / 100);
